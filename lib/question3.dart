@@ -32,7 +32,6 @@ class Question3 extends StatelessWidget {
                   color: Colors.blue,
                   onPressed: () {
                     //次の画面へ
-                    //TODO まいちゃ＋1ポイント
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -50,6 +49,7 @@ class Question3 extends StatelessWidget {
                   color: Colors.blue,
                   onPressed: () {
                     //TODO 次の画面へ
+                    //TODO まいちゃ＋1ポイント
                     Navigator.push(
                       context,
                       MaterialPageRoute(
