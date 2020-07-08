@@ -21,7 +21,7 @@
 //@airiram_dcap
 
 import 'package:flutter/material.dart';
-import 'package:whoIsYourFavoriteMember/questionary1.dart';
+import 'package:whoIsYourFavoriteMember/question1_page.dart';
 import 'package:whoIsYourFavoriteMember/who_is_your_favorite_member.dart';
 
 class WhatIsYourFavoriteColor extends StatelessWidget {

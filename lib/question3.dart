@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:whoIsYourFavoriteMember/what_is_your_favorite_color.dart';
 
-class Questionary3 extends StatelessWidget {
+class Question3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,7 +20,10 @@ class Questionary3 extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20.0),
                 child: Text(
-                  'AWSに興味がある？',
+                  'AWSは「明日　わっしょい！」の略だと思う',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
                 ),
               ),
               Padding(

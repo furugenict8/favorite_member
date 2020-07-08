@@ -1,18 +1,18 @@
-//ニッチっち質問ページ
+//なこち質問ページ
 
 import 'package:flutter/material.dart';
-import 'questionary2.dart';
+import 'package:whoIsYourFavoriteMember/question3.dart';
 
-class Questionary1 extends StatelessWidget {
+class Question2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('質問1'),
+        title: const Text('質問2'),
       ),
       body: Container(
-        color: Colors.green,
+        color: Colors.blue,
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -20,7 +20,10 @@ class Questionary1 extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20.0),
                 child: Text(
-                  'タガメを揚げて食べるのは好きですか？',
+                  'Salesforceエンジニアっていいよね',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
                 ),
               ),
               Padding(
@@ -28,11 +31,11 @@ class Questionary1 extends StatelessWidget {
                 child: RaisedButton(
                   color: Colors.blue,
                   onPressed: () {
-                    //TODO ニッチっちに＋1ポイント
                     //次の画面へ
+                    //TODO なこちに＋1ポイント
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => Questionary2()),
+                      MaterialPageRoute(builder: (context) => Question3()),
                     );
                   },
                   textColor: Colors.white,
@@ -48,7 +51,7 @@ class Questionary1 extends StatelessWidget {
                     //TODO 次の画面へ
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => Questionary2()),
+                      MaterialPageRoute(builder: (context) => Question3()),
                     );
                   },
                   textColor: Colors.white,
