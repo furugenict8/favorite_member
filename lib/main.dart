@@ -14,6 +14,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.white,
       ),
+      home: FirstScreen(),
     );
   }
 }

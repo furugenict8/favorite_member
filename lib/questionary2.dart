@@ -1,5 +1,7 @@
+//なこち質問ページ
+
 import 'package:flutter/material.dart';
-import 'package:whoIsYourFavoriteMember/what_is_your_favorite_color.dart';
+import 'package:whoIsYourFavoriteMember/questionary3.dart';
 
 class Questionary2 extends StatelessWidget {
   @override
@@ -30,8 +32,7 @@ class Questionary2 extends StatelessWidget {
                     //TODO なこちに＋1ポイント
                     Navigator.push(
                       context,
-                      MaterialPageRoute(
-                          builder: (context) => WhatIsYourFavoriteColor()),
+                      MaterialPageRoute(builder: (context) => Questionary3()),
                     );
                   },
                   textColor: Colors.white,
@@ -47,8 +48,7 @@ class Questionary2 extends StatelessWidget {
                     //TODO 次の画面へ
                     Navigator.push(
                       context,
-                      MaterialPageRoute(
-                          builder: (context) => WhatIsYourFavoriteColor()),
+                      MaterialPageRoute(builder: (context) => Questionary3()),
                     );
                   },
                   textColor: Colors.white,
