@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whoIsYourFavoriteMember/book_list_page.dart';
 import 'package:whoIsYourFavoriteMember/question1_page.dart';
 
 void main() {
@@ -46,6 +47,15 @@ class FirstScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => Question1()),
+                );
+              },
+            ),
+            RaisedButton(
+              child: Text('firebaseテスト'),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => BookList()),
                 );
               },
             ),
